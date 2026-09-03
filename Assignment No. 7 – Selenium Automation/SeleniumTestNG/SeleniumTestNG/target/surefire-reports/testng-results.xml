@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-03T16:36:40 PKT" name="SauceDemoSuite" finished-at="2026-09-03T16:37:23 PKT" duration-ms="42501">
+    <groups>
+    </groups>
+    <test started-at="2026-09-03T16:36:40 PKT" name="LoginTests" finished-at="2026-09-03T16:37:13 PKT" duration-ms="32923">
+      <class name="com.example.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:36:40 PKT" name="setUp" finished-at="2026-09-03T16:36:58 PKT" duration-ms="17825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:36:58 PKT" name="testSuccessfulLogin" description="Valid user should log in and land on products page" finished-at="2026-09-03T16:37:00 PKT" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:00 PKT" name="tearDown" finished-at="2026-09-03T16:37:00 PKT" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:00 PKT" name="setUp" finished-at="2026-09-03T16:37:02 PKT" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFailureScenarios(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:02 PKT" name="testLoginFailureScenarios" description="Invalid credentials should show correct error message" data-provider="invalidLoginData" finished-at="2026-09-03T16:37:03 PKT" duration-ms="1589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailureScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:03 PKT" name="tearDown" finished-at="2026-09-03T16:37:03 PKT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:03 PKT" name="setUp" finished-at="2026-09-03T16:37:05 PKT" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFailureScenarios(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:05 PKT" name="testLoginFailureScenarios" description="Invalid credentials should show correct error message" data-provider="invalidLoginData" finished-at="2026-09-03T16:37:06 PKT" duration-ms="1503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailureScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:06 PKT" name="tearDown" finished-at="2026-09-03T16:37:06 PKT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:06 PKT" name="setUp" finished-at="2026-09-03T16:37:08 PKT" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFailureScenarios(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:08 PKT" name="testLoginFailureScenarios" description="Invalid credentials should show correct error message" data-provider="invalidLoginData" finished-at="2026-09-03T16:37:10 PKT" duration-ms="1950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailureScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:10 PKT" name="tearDown" finished-at="2026-09-03T16:37:10 PKT" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:10 PKT" name="setUp" finished-at="2026-09-03T16:37:11 PKT" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFailureScenarios(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:11 PKT" name="testLoginFailureScenarios" description="Invalid credentials should show correct error message" data-provider="invalidLoginData" finished-at="2026-09-03T16:37:13 PKT" duration-ms="1501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailureScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@32eff876]" started-at="2026-09-03T16:37:13 PKT" name="tearDown" finished-at="2026-09-03T16:37:13 PKT" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.LoginTest -->
+    </test> <!-- LoginTests -->
+    <test started-at="2026-09-03T16:37:13 PKT" name="NavigationTests" finished-at="2026-09-03T16:37:23 PKT" duration-ms="9558">
+      <class name="com.example.tests.NavigationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.NavigationTest@4135c3b]" started-at="2026-09-03T16:37:13 PKT" name="setUp" finished-at="2026-09-03T16:37:14 PKT" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.example.tests.NavigationTest@4135c3b]" started-at="2026-09-03T16:37:14 PKT" name="loginFirst" finished-at="2026-09-03T16:37:16 PKT" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="testAddToCartAndNavigateToCart()[pri:0, instance:com.example.tests.NavigationTest@4135c3b]" started-at="2026-09-03T16:37:16 PKT" name="testAddToCartAndNavigateToCart" description="Add product to cart and navigate to cart page" finished-at="2026-09-03T16:37:16 PKT" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCartAndNavigateToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.NavigationTest@4135c3b]" started-at="2026-09-03T16:37:16 PKT" name="tearDown" finished-at="2026-09-03T16:37:17 PKT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.NavigationTest@4135c3b]" started-at="2026-09-03T16:37:17 PKT" name="setUp" finished-at="2026-09-03T16:37:18 PKT" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:com.example.tests.NavigationTest@4135c3b]" started-at="2026-09-03T16:37:18 PKT" name="loginFirst" finished-at="2026-09-03T16:37:20 PKT" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="testOpenProductDetailAndGoBack()[pri:0, instance:com.example.tests.NavigationTest@4135c3b]" started-at="2026-09-03T16:37:20 PKT" name="testOpenProductDetailAndGoBack" description="Open a product&#039;s detail page and verify details, then go back" finished-at="2026-09-03T16:37:21 PKT" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenProductDetailAndGoBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.NavigationTest@4135c3b]" started-at="2026-09-03T16:37:21 PKT" name="tearDown" finished-at="2026-09-03T16:37:23 PKT" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.NavigationTest -->
+    </test> <!-- NavigationTests -->
+  </suite> <!-- SauceDemoSuite -->
+</testng-results>

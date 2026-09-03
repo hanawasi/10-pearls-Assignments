@@ -1,0 +1,6 @@
+com\example\pages\ProductsPage.class
+com\example\pages\LoginPage.class
+com\example\pages\ProductDetailPage.class
+com\example\utils\WaitUtils.class
+com\example\App.class
+com\example\pages\CartPage.class
