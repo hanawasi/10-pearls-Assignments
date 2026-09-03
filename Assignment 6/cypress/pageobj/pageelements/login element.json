@@ -1,0 +1,8 @@
+
+{
+  "loginloc": {
+    "username_loc": "[data-test=\"username\"]",
+    "pass_loc": "[data-test=\"password\"]",
+    "button_loc": "[data-test=\"login-button\"]"
+  }
+}

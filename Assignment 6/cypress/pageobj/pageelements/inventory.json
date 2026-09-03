@@ -1,0 +1,8 @@
+{
+  "inventoryloc": {
+    "productname_loc": "[data-test=\"inventory-item-name\"]",
+    "dec_loc": ":nth-child(1) > [data-test=\"inventory-item-description\"] > .inventory_item_label > [data-test=\"inventory-item-desc\"]",
+    "price_loc": "[data-test=\"inventory-item-price\"]",
+    "clickproduct_loc": "[data-test=\"item-4-title-link\"]"
+  }
+}
